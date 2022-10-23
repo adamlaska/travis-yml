@@ -18,7 +18,7 @@ end
 group :test do
   gem 'dpl', git: 'https://github.com/travis-ci/dpl.git'
   gem 'json-schema'
-  gem 'rack-test'
+  gem 'rack-test', '>= 2.0.0'
   gem 'rake'
   gem 'rspec'
   gem 'webmock'
