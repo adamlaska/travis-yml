@@ -7,7 +7,7 @@ gem 'redcarpet'
 group :web do
   gem 'puma', '~> 4.3.5'
   gem 'sinatra'
-  gem 'sinatra-contrib'
+  gem 'sinatra-contrib', '>= 2.1.0'
   gem 'rack-cors'
   gem 'rack-ssl-enforcer', '~> 0.2.9'
   gem 'sentry-raven', '~> 2.9.0'
