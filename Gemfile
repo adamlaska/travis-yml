@@ -8,9 +8,9 @@ gem 'travis-conditions', git: 'https://github.com/travis-ci/travis-conditions'
 
 group :web do
   gem 'puma', '~> 6.3.0'
-  gem 'sinatra', '~> 2'
-  gem 'sinatra-contrib'
-  gem 'rack-cors'
+  gem 'sinatra', '~> 3', '>= 3.0.0'
+  gem 'sinatra-contrib', '>= 3.0.0'
+  gem 'rack-cors', '>= 3.0.0'
   gem 'rack-ssl-enforcer', '~> 0.2.9'
   gem 'sentry-raven', '~> 3.1.2'
   gem 'travis-config', git: 'https://github.com/travis-ci/travis-config'
@@ -21,11 +21,11 @@ group :test do
   gem 'dpl', git: 'https://github.com/travis-ci/dpl.git'
   gem 'json-schema'
   gem 'pry'
-  gem 'rack-test'
+  gem 'rack-test', '>= 2.2.0'
   gem 'rake'
-  gem 'rexml'
+  gem 'rexml', '>= 3.3.9'
   gem 'rspec'
-  gem 'webmock'
+  gem 'webmock', '>= 3.23.1'
 end
 
 gemspec
