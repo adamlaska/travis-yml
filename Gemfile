@@ -10,7 +10,7 @@ group :web do
   gem 'puma', '~> 6.3.0'
   gem 'sinatra', '~> 2'
   gem 'sinatra-contrib'
-  gem 'rack-cors'
+  gem 'rack-cors', '>= 3.0.0'
   gem 'rack-ssl-enforcer', '~> 0.2.9'
   gem 'sentry-raven', '~> 3.1.2'
   gem 'travis-config', git: 'https://github.com/travis-ci/travis-config'
